@@ -20,7 +20,7 @@ When consumer receives a ZendeskDomain object it fires following operations;
 
 Request
 ```
-curl -d '{"domain":"d3v-kaizo","oauth":"7bca63f5dbf2a6f2d2e5e9292682ccc4701cab07396c1ce30190c43908eb737d","startTime":"1511111871"}' -H "Content-Type: application/json" -X POST http://localhost:3000/data
+curl -d '{"domain":{domain},"oauth":{token},"startTime":"1511111871"}' -H "Content-Type: application/json" -X POST http://localhost:3000/data
 ```
 
 Response
